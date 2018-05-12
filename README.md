@@ -1,6 +1,12 @@
 # DBL-Webhook-Example
-An example on how to use webhooks for discordbots.org
+An example on how to use webhooks to get votes for discordbots.org
+[Official Docs](https://discordbots.org/api/docs#jslib)
 
-# Libs
+## Libs
 This uses [better-Sqlite3](https://www.npmjs.com/package/better-sqlite3) to show how YOU can make a webhook with your bot and save it to a database.
 This also uses [dblapi.js](https://www.npmjs.com/package/dblapi.js) for the webhook lib
+
+## Setup
+### What you need to change
+* The bot token (duh) (In bot/Bot.js)
+*
