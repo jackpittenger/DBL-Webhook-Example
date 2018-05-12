@@ -8,5 +8,7 @@ This also uses [dblapi.js](https://www.npmjs.com/package/dblapi.js) for the webh
 
 ## Setup
 ### What you need to change
-* The bot token (duh) (In bot/Bot.js)
-*
+* process.env.BOT_TOKEN [bot/Bot.js](https://github.com/realSaddy/DBL-Webhook-Example/blob/master/bot/Bot.js)
+* process.env.APITOKEN with your DBL Api Token [found here](https://discordbots.org/api/docs#mybots). [web/WebServer.js](https://github.com/realSaddy/DBL-Webhook-Example/blob/master/web/WebServer.js)
+* process.env.PORT with the webhook port [web/WebServer.js](https://github.com/realSaddy/DBL-Webhook-Example/blob/master/web/WebServer.js)
+* process.env.PASS with the password specified in the webhook section of your bot's edit page [web/WebServer.js](https://github.com/realSaddy/DBL-Webhook-Example/blob/master/web/WebServer.js)
